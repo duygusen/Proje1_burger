@@ -1,0 +1,235 @@
+body {
+	font-family: Montserrat, Arial;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #3f3b3b;
+}
+
+.container {
+	width: 1110px;
+
+	/* sayfada ortalamak icin */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	background-image: url(../img/hero/big-fat-juicy-cheese-burger-recipes.jpg);
+	background-position: top center;
+}
+
+.header {
+	font-size: 24px;
+	display: flex;
+	gap: 40px; /* ikonlarin arasinda bosluk birakmak icin */
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header a {
+	color: #3f3b3b;
+}
+
+.logo {
+	flex-grow: 1;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.hero {
+	display: flex;
+	height: 936px;
+	color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h2 {
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 1.01;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.button {
+	color: #fff;
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 1.39;
+	background-color: #fb5858;
+	padding: 16px 55px;
+	border-radius: 6px;
+	display: inline-block; /* elementler arasi bosluk sorunlarini cozmek icin kullaniyoruz */
+}
+
+.promo {
+	padding: 100px 0; /* ikili yazildiginda soldaki deger ust ve alt, sagdaki deger sol ve sag */
+	display: flex;
+}
+
+.promo-content {
+	padding-top: 120px;
+}
+
+.promo-content h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	margin-bottom: 12px;
+}
+
+.promo-content h6 i {
+	color: #ff9138;
+}
+
+.promo-content h3 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.17;
+	letter-spacing: -0.7px;
+	margin-bottom: 24px;
+}
+
+.promo-image img {
+	border-radius: 6px;
+}
+
+.card-group{
+	display: flex;
+}
+
+.promo2-title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  margin-bottom: 48px;
+}
+
+ .card-group{
+	margin-top: 48px;
+} 
+
+.card-group .card-two{
+	/* margin-left: auto;
+	margin-right: auto; */
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.card-group .card-five{
+	/* margin-left: auto;
+	margin-right: auto; */
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.card-group .card-text{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin-bottom: 70px;
+  gap: 30px;
+}
+
+.footer-button .button{
+	align-items: center !important;
+	margin-left: 450px !important; 
+}
+
+.footer-img{
+	background-image: url(../img/footer.jpg);
+	height: 453px;
+	margin-top: 120px;
+	margin-bottom: 56px;
+}
+
+.footer-img i{
+  width: 20px;
+  height: 16.4px;
+  background-color: #fff;
+
+}
+
+.footer-img h2{
+	font-family: Montserrat;
+	font-size: 60px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.17;
+	letter-spacing: -0.7px;
+	text-align: center;
+	color: #fff;
+	padding-top: 152px;
+}
+
+.footer-img .form-input{
+	width: 327px;
+	height: 48px;
+	align-self: center;
+	flex-grow: 0;
+	margin: 32px 391px 0 392px;
+	padding: 1px 1px 1.1px 16px;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.footer-text .logo-link{
+	
+	flex-direction: row;
+}
+
+.footer-text .link{
+	display: flex;
+	justify-content: flex-end;
+	gap: 56px;
+	margin-right: 120px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: right;
+	margin-bottom: 200px;
+	
+}
+
+.footer-text a{
+	color: #3f3b3b;
+	text-decoration: none;
+}
+
+.footer-text .logo-link{
+	display: flex;
+	gap: 40px;
+	margin-bottom: 200px;
+	
+}
+
+.footer-text .yumyum{
+	flex-grow: 1;
+	
+}
+
+ .icon{
+	display: flex;
+	gap: 40px;
+	margin-bottom: 40px;
+}
+
+.icon h6{
+	flex-grow: 1;
+}
